@@ -1,0 +1,125 @@
+section{
+    height: 500px;
+    width: 600px;
+    margin: 50px auto;
+    background-color: #191919;
+    position: relative;
+}
+
+.batman-background{
+    height: 150px;
+    width: 450px;
+    background-color: #E3AC64;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.batman-wing_up_left{
+    width: 160px;
+    height: 150px;
+    background: #191919;
+    position: absolute;
+    top: 172px;
+    left: 10px;
+    border-radius: 50%;
+}
+
+
+.batman-wing_up_right{
+    width: 160px;
+    height: 150px;
+    background: #191919;
+    position: absolute;
+    top: 172px;
+    right: 10px;
+    border-radius: 50%;
+}
+
+.batman-wing_down_left{
+    width: 190px;
+    height: 150px;
+    background: #191919;
+    position: absolute;
+    top: 255px;
+    left: 115px;
+    border-radius: 50%;
+}
+
+.batman-wing_down_right{
+    width: 190px;
+    height: 150px;
+    background: #191919;
+    position: absolute;
+    top: 255px;
+    right: 115px;
+    border-radius: 50%;
+}
+
+.batman-left_ear{
+    width: 50px;
+    height: 50px;
+    background: #191919;
+    position: absolute;
+    top: 165px;
+    left: 237px;
+    border-radius: 0 0 8px 8px;
+}
+
+.batman-right_ear{
+    width: 50px;
+    height: 50px;
+    background: #191919;
+    position: absolute;
+    top: 165px;
+    right: 238px;
+    border-radius: 0 0 8px 8px;
+}
+
+.batman-hidden_box1{
+    width: 55px;
+    height: 55px;
+    background: #191919;
+    position: absolute;
+    top: 135px;
+    left: 275px;
+}
+
+.batman-eye1{
+    width: 15px;
+    height: 15px ;
+    background: #E3AC64;
+    position: absolute;
+    top: 185px;
+    left: 281px;
+    border-radius: 50px;
+}
+
+.batman-eye2{
+    width: 15px;
+    height: 15px ;
+    background: #E3AC64;
+    position: absolute;
+    top: 185px;
+    right: 281px;
+    border-radius: 50px;
+}
+
+.batman-hidden_box3{
+    height: 70px;
+    width: 70px;
+    background-color: #191919;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+
+.batman-hidden_box4{
+    height: 70px;
+    width: 70px;
+    background-color: #191919;
+    position: absolute;
+    top: 300px;
+    right: 50px;
+}
